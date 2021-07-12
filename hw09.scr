@@ -1,0 +1,47 @@
+Script started on Mon Jul 12 16:08:53 2021
+[1m[7m%[27m[1m[0m                                                                                ]7;file://macbook-pro.lan/Users/bz/Desktop/HW/hw09[0m[27m[24m[J(base) bz@macbook-pro hw09 % [K[?2004hddate[?2004l
+Mon Jul 12 16:08:54 PDT 2021
+[1m[7m%[27m[1m[0m                                                                                ]7;file://macbook-pro.lan/Users/bz/Desktop/HW/hw09[0m[27m[24m[J(base) bz@macbook-pro hw09 % [K[?2004hlls -l[?2004l
+total 40
+-rw-r--r--  1 bz  staff  1010 Jul 12 16:08 Shape.cpp
+-rw-r--r--  1 bz  staff  2916 Jul 12 16:05 Shape.h
+-rw-r--r--  1 bz  staff  1796 Jul 12 16:05 hw09.cpp
+-rw-r--r--  1 bz  staff    43 Jul 12 16:08 hw09.scr
+-rw-r--r--  1 bz  staff   303 Jul 12 15:56 makefile
+[1m[7m%[27m[1m[0m                                                                                ]7;file://macbook-pro.lan/Users/bz/Desktop/HW/hw09[0m[27m[24m[J(base) bz@macbook-pro hw09 % [K[?2004hmmake all[?2004l
+g++ -std=c++14 -Wall -g -c Shape.cpp -o Shape.o
+g++ -std=c++14 -Wall -g hw09.cpp -o hw09 Shape.o
+l[1m[7m%[27m[1m[0m                                                                                ]7;file://macbook-pro.lan/Users/bz/Desktop/HW/hw09[0m[27m[24m[J(base) bz@macbook-pro hw09 % [K[?2004hlls -l[?2004l
+total 216
+-rw-r--r--  1 bz  staff   1010 Jul 12 16:08 Shape.cpp
+-rw-r--r--  1 bz  staff   2916 Jul 12 16:05 Shape.h
+-rw-r--r--  1 bz  staff  22412 Jul 12 16:08 Shape.o
+-rwxr-xr-x  1 bz  staff  65160 Jul 12 16:08 hw09
+-rw-r--r--  1 bz  staff   1796 Jul 12 16:05 hw09.cpp
+drwxr-xr-x  3 bz  staff     96 Jul 12 16:08 hw09.dSYM
+-rw-r--r--  1 bz  staff     43 Jul 12 16:08 hw09.scr
+-rw-r--r--  1 bz  staff    303 Jul 12 15:56 makefile
+[1m[7m%[27m[1m[0m                                                                                ]7;file://macbook-pro.lan/Users/bz/Desktop/HW/hw09[0m[27m[24m[J(base) bz@macbook-pro hw09 % [K[?2004h../hw09[?2004l
+*****************************************
+   Programmed by: Belal Zahran
+   Student ID   : 1176978
+   CS1B         : MTWT: 3:00 - 5:20pm
+   HW #9        : Abstract Classes and Virtual Functions 
+*****************************************
+
+Enter the side lengths of the rectangle (Ex: 10 5):4 20
+The area of the shape is 80
+The perimeter of the shape is 48
+
+
+Enter the side lengths of the Triangle (Ex: 10 5 4):3 4 5
+The area of the shape is 6
+The perimeter of the shape is 12
+[1m[7m%[27m[1m[0m                                                                                ]7;file://macbook-pro.lan/Users/bz/Desktop/HW/hw09[0m[27m[24m[J(base) bz@macbook-pro hw09 % [K[?2004heexit[?2004l
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...      85 completed.
+
+Script done on Mon Jul 12 16:09:16 2021
